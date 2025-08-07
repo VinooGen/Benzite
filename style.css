@@ -9,7 +9,7 @@ body{
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to bottom right, #0033cc, #ffcc00);
-  background-image: url(image/imageBENZITE.png);
+  background-image: url(image.imageBENZITE);
   background-position: top;
   background-size: cover;
   color: #fff;
@@ -164,6 +164,7 @@ footer {
   
 
   
+
 
 
 
