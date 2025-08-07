@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MPK-OSIS</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    
+
+    
+    /* Tambahan CSS */
+    .dropdown {
+      display: none;
+      margin-top: 10px;
+    
+    }
+    
+
+    .dropdown a {
+      display: block;
+      margin: 5px 0;
+      text-decoration: none;
+      color:white;
+      background-color: rgba( 0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 40px;
+      border-width: 40px;
+      display:inline-block;
+    }
+    
+
+    .dropdown.show {
+      display: block;
+    }
+
+    .hamburger {
+      cursor: pointer;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <img src="image/WhatsApp_Image_2025-08-06_at_19.15.34-removebg-preview (3).png" alt="Logo Sekolah" class="logo" />
+      <h1 class="title">Benzite</h1>
+    </div>
+    <nav id="navMenu">
+      <a href="index.html">Beranda</a>
+      <a href="mpk-osis.html">MPK-OSIS</a>
+      <a href="#palmarius">Palmarius</a>
+      <a href="#foras">Foras</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="beranda">
+    <div class="overlay">
+      <h2>Welcome To Palmarius Web</h2>
+      <p>Scroll down to see your art!.</p>
+    </div>
+  </section>
+
+  <section class="section" id="MPK-OSIS">
+    <div class="overlay">
+      <h2></h2>
+    <p></p>
+    </div>
+    
+  </section>
+
+  
+  </section>
+
+  <footer>
+    &copy; 2025 SMA Palmarius. Dibuat dengan semangat untuk masa depan.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navMenu");
+      nav.classList.toggle("show");
+    }
+
+    function toggleDropdown() {
+      const dropdown = document.getElementById("benzDropdown");
+      dropdown.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

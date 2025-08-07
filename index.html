@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Benzite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <img src="image/WhatsApp_Image_2025-08-06_at_19.15.34-removebg-preview (3).png"alt="Logo Sekolah" class="logo" />
+      <h1 class="title">Benzite
+    </div>
+    <nav id="navMenu">
+      <a href="#Beranda">Beranda</a>
+      <a href="mpk-osis.html">MPK-OSIS</a>
+      <a href="palmarius.html">Palmarius</a>
+      <a href="#foras">foras</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="beranda">
+    <div class="overlay">
+      <h2>Welcome To Benzite</h2>
+      <p>Memberikan informasi tentang benzar.</p>
+      <p>Tekan garis tiga dipojok kiri untuk melihat info-info</p>
+    </div>
+  </section>
+
+  <section class="section" id="MPK-OSIS">
+    <div class="overlay">
+      <h2>MPK-OSIS</h2>
+    <p>Menyediakan info tentang event-event yang dijalankan</p>
+    </div>
+    
+  </section>
+
+  <section class="section" id="foras">
+    <div class="overlay">
+      <h2>FORAS</h2>
+    <p>Forum Aspirasi Siswa sebagai wadah suara, ide, dan perubahan. Di sinilah kalian didengar.</p>
+    </div>
+    
+  </section>
+
+  <section class="section" id="palmarius">
+    <div class="overlay">
+      <h2>Palmarius</h2>
+    <p>Program unggulan sekolah untuk siswa berprestasi dan berdaya saing tinggi di tingkat nasional dan internasional.<p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SMA Palmarius. Dibuat dengan semangat untuk masa depan.
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navMenu");
+      nav.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>
+
